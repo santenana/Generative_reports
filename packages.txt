@@ -1,2 +1,1 @@
-torch
-scikit-learn
+libgl1-mesa-glx
