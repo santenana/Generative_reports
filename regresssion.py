@@ -21,7 +21,6 @@ def main():
         columns = list(df.columns)
         viz = ['bar 📊', 'pie 🥧', 'correlation 🎢', 'Line 🪡', 'Trend 📈']
         tabs = st.tabs(viz)
-
         date_columns = [col for col in columns if 'year' in col.lower() or 'date' in col.lower()]
 
         if len(date_columns) == 0:
